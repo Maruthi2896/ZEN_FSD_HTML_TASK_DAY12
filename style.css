@@ -1,0 +1,19 @@
+
+   nav{
+    background-color:blanchedalmond;
+    font-size: 50px;
+    margin-top: 0px;
+   text-align: center;
+   }
+   h4{
+    font-size: 30px;
+    margin-top: 10px;
+   text-align: center;
+   background-color: aliceblue;
+   }
+.content{
+  margin-left: 0px;
+}
+.image{
+  width:max-content
+}
