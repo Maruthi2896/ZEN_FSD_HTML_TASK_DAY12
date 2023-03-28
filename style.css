@@ -1,19 +1,73 @@
 
-   nav{
-    background-color:blanchedalmond;
-    font-size: 50px;
-    margin-top: 0px;
-   text-align: center;
-   }
-   h4{
-    font-size: 30px;
-    margin-top: 10px;
-   text-align: center;
-   background-color: aliceblue;
-   }
-.content{
-  margin-left: 0px;
+
+.main-container{
+    margin-left: 13%;
 }
-.image{
-  width:max-content
+
+.card1,.card2,.card3,.textbox,.card-body{
+    background-color: rgb(39, 64, 64) !important;
 }
+
+.main-body{
+    background-color: rgb(195, 179, 179) !important;
+    margin-right: 0 !;
+}
+
+.img-fluid{
+    max-width: 40px !important;
+    height: auto;
+}
+
+#gitname{
+    margin-left: 40%;
+    font-size: x-large;
+}
+
+.card1{
+    height: 30rem; 
+    border-radius: 7px;
+}
+
+.textbox{
+    border-radius: 7px;
+    height: 3rem;
+    margin-left: 10% !important;
+}
+
+.card2{
+    height: 7rem; 
+    border-radius: 7px;
+}
+
+.card3{
+    height: 10rem;
+    border-radius: 7px;
+}
+
+@media (max-width: 575.98px) { 
+    .card-body{
+        margin-right: 10% !important;
+        display: block !important;
+        overflow: hidden;
+    }
+    .card1{
+        width: 15rem !important;
+    }
+    .cont2{
+        margin-left: 2px !important;
+    }
+ }
+
+ @media (max-width: 767.98px) { 
+    .card-body{
+        margin-right: 10% !important;
+        display: block !important;
+        overflow:hidden
+    }
+    .card1{
+        width: 15rem !important;
+    }
+    .cont2{
+        margin-left: 2px !important;
+    }
+ } 
